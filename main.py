@@ -7,6 +7,20 @@ issues
   2.1 get all records of the storage
   2.2 display records
 """
-print ("MyPhonebook")
-
+def inpute_name_and_phone_number():
+    print("Enter name and phone number...")
+def save_name_and_phone_number_in_the_storage():
+    print("Saving records...")
+def get_all_records():
+    print("Get all records...")
+def display_records():
+    print("Display records...")
+def main():
+    print("MyPhonebook")
+    inpute_name_and_phone_number()
+    save_name_and_phone_number_in_the_storage()
+    get_all_records()
+    display_records()
+if __name__ == "__main__":
+    main()
 
